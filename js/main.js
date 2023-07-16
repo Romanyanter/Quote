@@ -7,7 +7,6 @@
   var quoteBtn = document.getElementById("quoteBtn");
   var quotes = [
     {
-      img:"https://images.gr-assets.com/authors/1356810912p5/5810891.jpg",
       quoteContent: "“Be yourself; everyone else is already taken.”",
       authorName: "― Oscar Wilde",
     },
@@ -93,5 +92,4 @@
   }
   quoteBtn.onclick = getRandomQuotes;
 })();
-  
 
